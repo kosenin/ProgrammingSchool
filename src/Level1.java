@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class Main {
+public class Level1 {
 
     public static int squirrel(int N) {
         int fact = 1;
