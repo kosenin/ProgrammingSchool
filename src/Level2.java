@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Level2 {
 
-
     public static int odometer(int[] oksana) {
 
         List<Integer> speed = new ArrayList();
@@ -14,9 +13,7 @@ public class Level2 {
             } else
                 hours.add(oksana[i]);
         }
-
         int realTIme = 0;
-
         int counter = 0;
 
         for (int i = 0; i < speed.size(); i++) {
@@ -27,7 +24,6 @@ public class Level2 {
                 realTIme++;
             }
         }
-
         return counter;
     }
 }
